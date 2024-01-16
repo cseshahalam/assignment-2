@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+    nav, .menu ul{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        align-items: center;
+
+    }
+   .loog, .menu ul li{
+        margin-bottom: 10px;
+        
+       
+    }
+    .logo{
+        align-items: center;
+        
+    }
+    .logo h1{
+        font-size: 20px;
+        
+    }
+}
