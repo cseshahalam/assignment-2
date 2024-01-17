@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    nav, .menu ul{
+    nav, .menu ul,.distination-image-1,.distination-image-2, .distination-image-3,.tour-content, .newsletter{
         flex-direction: column;
         gap: 30px;
         text-align: center;
@@ -18,5 +18,14 @@
     .logo h1{
         font-size: 20px;
         
+    }
+    .distination-image-3 {
+        flex-direction: column;
+
+        .choose-pupple {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            
+        }
     }
 }

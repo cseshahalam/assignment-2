@@ -43,9 +43,9 @@ nav,
     margin-left: 20px;
 }
 
-span {
+ /* {
     color: red;
-}
+} */
 
 
 .menu ul li a {
@@ -247,10 +247,8 @@ ul>li {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 20px;
-    display: flex;
-     flex-direction: column;
-     align-items: center;
-    justify-content: center;  
+    margin: 0 auto;
+    
 
 }
 
@@ -341,7 +339,8 @@ ul>li {
 }
 footer {
     background: rgba(19, 19, 24, 0.05);
-    padding: 100px;
+    padding: 50px;
+    margin-top: 20px;
     
 
 }
@@ -352,4 +351,30 @@ footer {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.footer-icon span{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin-left: 10px;
+    margin-bottom: 20px
+    
+    ;
+}
+
+hr{
+    
+   color:rgba(19, 19, 24, 0.10);
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.destination-middle{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
 }
